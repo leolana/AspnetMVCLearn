@@ -12,7 +12,7 @@ Conteúdo do treinamento de Asp.Net MVC
   * 2.1. Projetando aplicações MVC / Modelagem das classes
   * 2.2. Relações entre models
   * 2.3. Data Annotations
-  * 2.4. LINQ, Lambda Expressions
+  * 2.4. Scaffolding
 3. Controllers
   * 3.1. Rotas
   * 3.2. Convenção de nomes
@@ -32,3 +32,4 @@ Conteúdo do treinamento de Asp.Net MVC
   * 5.2. Code First / Database First / Model First
   * 5.3. DbContext / DbSet
   * 5.4. Migrations / Seeds
+  * 5.5. LINQ, Lambda Expressions
