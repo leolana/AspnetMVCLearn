@@ -18,15 +18,14 @@ Conteúdo do treinamento de Asp.Net MVC
   * 3.2. Convenção de nomes
   * 3.3. Http Verbs
   * 3.4. Bundling & Minification
-  * 3.5. ViewBag, ViewData e TempData
-  * 3.6. Filters
 4. Views
   * 4.1. Html
   * 4.2. CSS
   * 4.3. JavaScript / jQuery
   * 4.4. Razor / Html Helpers / Validation Helpers
-  * 4.5. Binding Views to Models
-  * 4.6. Shared Views
+  * 4.5. ViewBag, ViewData e TempData
+  * 4.6. Binding Views to Models
+  * 4.7. Shared Views
 5. EF
   * 5.1. Conexão ao Banco de Dados / Connection Strings
   * 5.2. Code First / Database First / Model First
