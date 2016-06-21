@@ -32,3 +32,6 @@ Conteúdo do treinamento de Asp.Net MVC
   * 5.3. DbContext / DbSet
   * 5.4. Migrations / Seeds
   * 5.5. LINQ, Lambda Expressions
+
+Apresentação:
+https://leolana.github.io/AspnetMVCLearn/
