@@ -1,0 +1,23 @@
+{
+  "name": "aspnet-mvc-learn",
+  "version": "1.0.0",
+  "description": "Conteúdo do treinamento de Asp.Net MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolana/AspnetMVCLearn.git"
+  },
+  "author": "leolana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolana/AspnetMVCLearn/issues"
+  },
+  "homepage": "https://github.com/leolana/AspnetMVCLearn#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
+}
