@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BookStore.Models.Item>
+@{
+    ViewBag.Title = "Carrinho";
+}
+
+@foreach (var item in Model)
+{
+    <div class="thumbnail">
+        <div class="row">
+            <div class="col-md-9 col-sm-9 col-xs-12">
+                @item.Livro.Titulo
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-4">
+                <button class="btn btn-default" onclick="diminuirItem(@item.LivroId)"><i class="glyphicon glyphicon-minus"></i></button>
+            </div>
+            <div id="qtdItem@(item.LivroId)" class="col-md-1 col-sm-1 col-xs-4">
+                @item.Quantidade
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-4">
+                <button class="btn btn-default" onclick="adicionarItem(@item.LivroId)"><i class="glyphicon glyphicon-plus"></i></button>
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts{
+    <script>
+        function adicionarItem(id){
+            $.post('@Url.Action("Adicionar", "Carrinho")', { id: id }, function () {
+                var qtdAtual = $('#qtdItem' + id).html();
+                qtdAtual = parseInt(qtdAtual);
+                $('#qtdItem' + id).html(qtdAtual +1);
+            });
+        }
+
+        function diminuirItem(id) {
+            $.post('@(Url.Action("Diminuir","Carrinho"))', {id: id}, function () {
+                var qtdAtual = $('#qtdItem' + id).html();
+                qtdAtual = parseInt(qtdAtual);
+
+                if(qtdAtual > 0){
+                    $('#qtdItem' + id).html(qtdAtual -1);
+                }
+            });
+        }
+    </script>
+}
