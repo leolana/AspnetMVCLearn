@@ -1,0 +1,10 @@
+﻿@if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+{
+    <li><a href="@(Url.Action("Index", "Carrinho"))">Carrinho</a></li>
+    <li><a href="@(Url.Action("Logout", "Account"))">Logout</a></li>
+}
+else
+{
+    <li><a href="@(Url.Action("Login", "Account"))">Login</a></li>
+    <li><a href="@(Url.Action("Create","Cliente"))">Cadastre-se</a></li>
+}
