@@ -1,0 +1,164 @@
+* {
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    text-decoration: none;
+    border: none;
+    font-size: 20pt;
+}
+
+header {
+    background-color: rgb(46,117,182);
+    color: white;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+.img-presentation {
+    max-width: 150px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+table {
+    margin-top: 25px;
+}
+
+thead {
+    background-color: rgb(46,117,182);
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(210, 222, 239);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(234, 239, 247);
+}
+
+.slide-control{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slide-control button{
+    background-color: transparent;
+}
+
+.legend{
+    display: block;
+    font-size: 12pt;
+    text-align: right;
+}
+
+
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+.note {
+    -ms-border-radius: 3px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+    .note:first-child {
+        margin-top: 0;
+    }
+
+    .note h4 {
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+
+    .note p:last-child {
+        margin-bottom: 0;
+    }
+
+    .note code {
+        border-radius: 3px;
+    }
+
+    .note + .note {
+        margin-top: -5px;
+    }
+
+    .note p,
+    .note pre,
+    .note li,
+    .note b,
+    .note i {
+        -moz-transition: 0.0s !important;
+        -o-transition: 0.0s !important;
+        -webkit-transition: 0.0s !important;
+        transition: 0.0s !important;
+        text-decoration: none !important;
+        border: none !important;
+        font-size: initial !important;
+    }
+
+.note-primary {
+    border-left-color: #142984;
+}
+
+    .note-primary h4 {
+        color: #142984;
+    }
+
+.note-secondary {
+    border-left-color: #003399;
+}
+
+    .note-secondary h4 {
+        color: #003399;
+    }
+
+
+.note-success {
+    border-left-color: #67983f;
+}
+
+    .note-success h4 {
+        color: #67983f;
+    }
+
+.note-info {
+    border-left-color: #01abaa;
+}
+
+    .note-info h4 {
+        color: #01abaa;
+    }
+
+.note-info-secondary {
+    border-left-color: #00a3a2;
+}
+
+    .note-info-secondary h4 {
+        color: #00a3a2;
+    }
+
+.note-warning {
+    border-left-color: #ffc000;
+}
+
+    .note-warning h4 {
+        color: #ffc000;
+    }
+
+.note-danger {
+    border-left-color: #c00000;
+}
+
+    .note-danger h4 {
+        color: #c00000;
+    }
