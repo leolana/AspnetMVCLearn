@@ -1,16 +1,43 @@
+<style>
+    .route-small{
+        margin-left: 20px;
+    }
+        .route-small p{
+            font-size: 16pt;
+        }
+
+    td {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+</style>
 <header>
-    <h1>3.5 | Bundling & Minification</h1>
+    <h1>3.4 | Rotas</h1>
 </header>
 
 <main>
-    <p>Bundling combina bibliotecas JavaScript em um único arquivo .js</p>
-    <p>Bundling combina estilos css em um único arquivo .css</p> 
+    <p>RouteConfig.cs</p>
 
-    <p>Minification comprime os arquivos antes de serem enviados para o cliente</p>
+    <div class="route-small">
+        <p>routes.MapRoute(</p>
+        <p>&nbsp;&nbsp;name: "Default",</p>
+        <p>&nbsp;&nbsp;url: "{controller}/{action}/{id}",</p>
+        <p>&nbsp;&nbsp;defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }</p>
+        <p>);</p>
+    </div>
     
-    <ul>
-        <li>Ajudam a diminuir o tempo de carregamento</li>
-        <li>Reduzem tamanho</li>
-        <li>Reduzem o número de requests ao servidor</li>
-    </ul>
+    <table>
+        <tr>
+            <td>localhost:5000/Cliente</td>
+            <td>Index</td>
+        </tr>
+        <tr>
+            <td>localhost:5000/Cliente/Create</td>
+            <td>Create</td>
+        </tr>
+        <tr>
+            <td>localhost:5000/Cliente/Edit/1</td>
+            <td>Edit</td>
+        </tr>
+    </table>
 </main>
