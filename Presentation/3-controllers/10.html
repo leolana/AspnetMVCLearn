@@ -1,38 +1,16 @@
-<style>
-.bundle{
-    margin-left: 20px;
-}
-    .bundle p{
-        font-size: 16pt;
-    }
-
-</style>
-
 <header>
     <h1>3.5 | Bundling & Minification</h1>
 </header>
 
 <main>
-    <h2>Como usar</h2>
-    <p>Instalar o Microsoft.AspNet.Web.Optimization através do NuGet</p>
-    <p>Criar um arquivo BundleConfig.cs na pasta App_Start</p>
-    <p>Adicionar os bundles</p>
-    <div class="bundle">
-        <div class="row">
-            <div class="col-md-6">
-                <p>bundles.Add(new StyleBundle("~/content/site")</p>
-                <p>.Include(</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;"~/Content/bootstrap.css",</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;"~/Content/site.css"</p>
-                <p>));</p>
-            </div>
-            <div class="col-md-6">
-                <p>bundles.Add(new ScriptBundle("~/bundles/site")</p>
-                <p>.Include(</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;"~/Scripts/kendo/jquery-{version}.js",</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;"~/Scripts/kendo/site.js"</p>
-                <p>));</p>
-            </div>
-        </div>
-    </div>
+    <p>Bundling combina bibliotecas JavaScript em um único arquivo .js</p>
+    <p>Bundling combina estilos css em um único arquivo .css</p> 
+
+    <p>Minification comprime os arquivos antes de serem enviados para o cliente</p>
+    
+    <ul>
+        <li>Ajudam a diminuir o tempo de carregamento</li>
+        <li>Reduzem tamanho</li>
+        <li>Reduzem o número de requests ao servidor</li>
+    </ul>
 </main>
