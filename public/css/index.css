@@ -75,7 +75,9 @@ tbody tr:nth-child(even) {
         margin-top: 0;
     }
 
-    .note h4 {
+    .note h4,
+    .note h3,
+    .note h2 {
         margin-bottom: 5px;
         margin-top: 0;
     }
@@ -110,6 +112,8 @@ tbody tr:nth-child(even) {
     border-left-color: #142984;
 }
 
+    .note-primary h2,
+    .note-primary h3,
     .note-primary h4 {
         color: #142984;
     }
@@ -135,6 +139,8 @@ tbody tr:nth-child(even) {
     border-left-color: #01abaa;
 }
 
+    .note-info h2,
+    .note-info h3,
     .note-info h4 {
         color: #01abaa;
     }

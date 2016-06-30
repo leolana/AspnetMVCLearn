@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Book Store";
+}
+
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+    <p class="lead">O maior site de vendas de livros</p>
+</div>
+
+<ul class="row list-unstyled" id="book-list">
+    @foreach (var livro in Model)
+    {
+        <li class="col-lg-2 col-md-2 col-sm-2 col-xs-4 container text-center">
+            <a href="@Url.Action("Details", "Livro", new {id = livro.Id})">
+                <img alt="@livro.Titulo" src="~/Images/icon.jpg"/>
+                <h4>@livro.Titulo</h4>
+            </a>
+        </li>
+    }
+</ul>
