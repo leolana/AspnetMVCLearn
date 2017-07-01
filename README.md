@@ -8,17 +8,23 @@ Conteúdo do treinamento de Asp.Net MVC
   * 1.4. Introdução ao MVC
   * 1.5. Introdução ao WebAPI
   * 1.6. Vantagens e desvantagens do MVC
-2. Model
+2.1. Model
   * 2.1. Projetando aplicações MVC / Modelagem das classes
   * 2.2. Relações entre models
   * 2.3. Data Annotations
   * 2.4. Scaffolding
-3. Controllers
+2.2. EF
+  * 5.1. Conexão ao Banco de Dados / Connection Strings
+  * 5.2. Code First / Database First / Model First
+  * 5.3. DbContext / DbSet
+  * 5.4. Migrations / Seeds
+  * 5.5. LINQ, Lambda Expressions
+3.1. Controllers
   * 3.1. Rotas
   * 3.2. Convenção de nomes
   * 3.3. Http Verbs
   * 3.4. Bundling & Minification
-4. Views
+3.2. Views
   * 4.1. Html
   * 4.2. CSS
   * 4.3. JavaScript / jQuery
@@ -26,12 +32,7 @@ Conteúdo do treinamento de Asp.Net MVC
   * 4.5. ViewBag, ViewData e TempData
   * 4.6. Binding Views to Models
   * 4.7. Shared Views
-5. EF
-  * 5.1. Conexão ao Banco de Dados / Connection Strings
-  * 5.2. Code First / Database First / Model First
-  * 5.3. DbContext / DbSet
-  * 5.4. Migrations / Seeds
-  * 5.5. LINQ, Lambda Expressions
+
 
 Apresentação:
 https://leolana.github.io/AspnetMVCLearn/
