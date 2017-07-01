@@ -43,7 +43,6 @@ tbody tr:nth-child(even) {
 }
 
 .slide-control{
-    position: absolute;
     bottom: 0;
     left: 0;
 }
