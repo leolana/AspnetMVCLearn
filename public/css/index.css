@@ -45,6 +45,8 @@ tbody tr:nth-child(even) {
 .slide-control{
     bottom: 0;
     left: 0;
+    display: none !important;
+    visibility: hidden !important;
 }
 
 .slide-control button{
